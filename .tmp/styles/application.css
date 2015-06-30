@@ -1,0 +1,70 @@
+body {
+	font-family: Noto Serif, serif;
+}
+
+
+.container {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+	background-color: green;
+	background: linear-gradient( rgba(232, 179, 79, 1) 0%,
+        rgba(85, 150, 174, .1) 100%);
+  background-size: 100% 100%;
+  -webkit-animation: spin 10s infinite alternate;
+          animation: spin 10s infinite alternate;
+  background-color: rgba(214, 64, 64, .5);
+}
+
+@-webkit-keyframes spin {
+    33% {background-color: rgba(85, 150, 174, 1);}
+	66% {background-color: rgba(232, 64, 128, 1);}
+	100% {background-color: rgba(85, 150, 128, 1);}
+}
+
+@keyframes spin {
+    33% {background-color: rgba(85, 150, 174, 1);}
+	66% {background-color: rgba(232, 64, 128, 1);}
+	100% {background-color: rgba(85, 150, 128, 1);}
+}
+
+
+.logo {
+	  pointer-events: auto;
+  top: 179px;
+  left: 201px;
+  width: 209px;
+  height: 37px;
+  position: absolute;
+  -webkit-background-origin: content-box;
+  overflow: visible;
+  -webkit-background-size: 100%;
+  display: inline;
+  z-index: 12;
+  background-image: url(http://i-novus.ru/placeholder.hyperesources/logo.png);
+  background-size: 100% 100%;
+  background-origin: content-box;
+}
+
+.text {
+	pointer-events: auto;
+  top: 227px;
+  left: 246px;
+  width: 200px;
+  height: 245px;
+  position: absolute;
+  padding: 8px;
+  line-height: 1.3rem;
+  overflow: visible;
+  word-wrap: break-word;
+  display: inline;
+  z-index: 8;
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  letter-spacing: .05em;
+  font-size: 0.8em;
+}

@@ -31,6 +31,7 @@ dwsync.xml
 publish
 .idea
 node_modules
+bower_components
 
 # build script local files
 build/buildinfo.properties

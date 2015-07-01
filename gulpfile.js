@@ -17,17 +17,34 @@ gulp.task('styles', function () {
 });
 
 
-gulp.task('usemin', ['styles'], function() {
+// gulp.task('usemin', ['styles'], function() {
+//   return gulp.src('app/*.html')
+//     .pipe($.usemin({
+//       css: [$.minifyCss(), 'concat'],
+//       html: [$.minifyHtml({empty: true})],
+//       js: [$.uglify(), $.rev()],
+//       inlinejs: [$.uglify()],
+//       inlinecss: [$.minifyCss(), 'concat']
+//     }))
+//     .pipe(gulp.dest('dist'))
+// })
+
+gulp.task('html', ['styles'], function () {
+  var lazypipe = require('lazypipe');
+  var cssChannel = lazypipe()
+    .pipe($.csso)
+    .pipe($.replace, 'bower_components/bootstrap-sass-official/assets/fonts/bootstrap','fonts');
+  var assets = $.useref.assets({searchPath: '{.tmp,app}'});
+ 
   return gulp.src('app/*.html')
-    .pipe($.usemin({
-      css: [$.minifyCss(), 'concat'],
-      html: [$.minifyHtml({empty: true})],
-      js: [$.uglify(), $.rev()],
-      inlinejs: [$.uglify()],
-      inlinecss: [$.minifyCss(), 'concat']
-    }))
-    .pipe(gulp.dest('dist'))
-})
+    .pipe(assets)
+    .pipe($.if('*.js', $.uglify()))
+    .pipe($.if('*.css', cssChannel()))
+    .pipe(assets.restore())
+    .pipe($.useref())
+    .pipe($.if('*.html', $.minifyHtml({conditionals: true, loose: true})))
+    .pipe(gulp.dest('dist'));
+});
 
 
  
@@ -94,7 +111,7 @@ gulp.task('serve', ['connect', 'watch'], function () {
 gulp.task('wiredep', function () {
   var wiredep = require('wiredep').stream;
  
-  gulp.src('app/styles/*.css')
+  gulp.src('app/styles/*.scss')
     .pipe(wiredep())
     .pipe(gulp.dest('app/styles'));
  
@@ -118,7 +135,7 @@ gulp.task('watch', ['connect'], function () {
   gulp.watch('bower.json', ['wiredep']);
 });
  
-gulp.task('build', ['jshint', 'usemin', 'images', 'fonts', 'extras'], function () {
+gulp.task('build', ['jshint', 'html', 'images', 'fonts', 'extras'], function () {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
  

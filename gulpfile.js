@@ -6,8 +6,12 @@ var $ = require('gulp-load-plugins')(); // listed in package.json
 
 // styles app/styles/**/*.css => .tmp/styles
 gulp.task('styles', function () {
-  return gulp.src('app/styles/**/*.css')
+  return gulp.src('app/styles/**/*.scss')
     .pipe($.plumber())
+    .pipe($.rubySass({
+      style: 'expanded',
+      precision: 10
+    }))
     .pipe($.autoprefixer({browsers: ['last 2 versions']}))
     .pipe(gulp.dest('.tmp/styles'));
 });
@@ -110,7 +114,7 @@ gulp.task('watch', ['connect'], function () {
     'app/images/**/*'
   ]).on('change', $.livereload.changed);
  
-  gulp.watch('app/styles/**/*.css', ['styles']);
+  gulp.watch('app/styles/**/*.scss', ['styles']);
   gulp.watch('bower.json', ['wiredep']);
 });
  

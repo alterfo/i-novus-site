@@ -86,7 +86,7 @@ body {
 }
 
 
-$n: 30; 
+$n: 20; 
 $m: 20;
 
 @keyframes glickstick {
@@ -95,8 +95,8 @@ $m: 20;
   }
 
   @for $i from 1 through $n {
-    #{$i * 98% / $m} {
-        width: random($n)*10 + 40 + px;
+    #{$i * 98% / $n } {
+        width: random($n*10) + 40 + px;
       transform:
         translate(random($n * 13 % $m) + em);
     }

@@ -78,23 +78,23 @@ body {
 }
 
 .stick-1 {
-  -webkit-animation: glickstick 8s infinite ease-in-out;
-          animation: glickstick 8s infinite ease-in-out;
+  -webkit-animation: glickstick 12s infinite ease-in-out;
+          animation: glickstick 12s infinite ease-in-out;
 }
 
 .stick-2 {
-  -webkit-animation: glickstick 19s infinite ease-in-out;
-          animation: glickstick 19s infinite ease-in-out;
+  -webkit-animation: glickstick 16s infinite ease-in-out;
+          animation: glickstick 16s infinite ease-in-out;
 }
 
 .stick-3 {
-  -webkit-animation: glickstick 31s infinite ease-in-out;
-          animation: glickstick 31s infinite ease-in-out;
+  -webkit-animation: glickstick 33s infinite ease-in-out;
+          animation: glickstick 33s infinite ease-in-out;
 }
 
 .stick-4 {
-  -webkit-animation: glickstick 42s infinite ease-in-out;
-          animation: glickstick 42s infinite ease-in-out;
+  -webkit-animation: glickstick 21s infinite ease-in-out;
+          animation: glickstick 21s infinite ease-in-out;
 }
 
 .bouncing-stick {
@@ -109,155 +109,155 @@ body {
   0% {
     width: 350px;
   }
-  4.9% {
-    width: 130px;
+  3.2666666667% {
+    width: 170px;
     -webkit-transform: translate(9em);
             transform: translate(9em);
   }
-  9.8% {
-    width: 240px;
-    -webkit-transform: translate(10em);
-            transform: translate(10em);
-  }
-  14.7% {
-    width: 80px;
-    -webkit-transform: translate(8em);
-            transform: translate(8em);
-  }
-  19.6% {
-    width: 190px;
-    -webkit-transform: translate(8em);
-            transform: translate(8em);
-  }
-  24.5% {
-    width: 230px;
-    -webkit-transform: translate(1em);
-            transform: translate(1em);
-  }
-  29.4% {
-    width: 170px;
+  6.5333333333% {
+    width: 179px;
     -webkit-transform: translate(4em);
             transform: translate(4em);
   }
-  34.3% {
-    width: 140px;
-    -webkit-transform: translate(7em);
-            transform: translate(7em);
+  9.8% {
+    width: 235px;
+    -webkit-transform: translate(9em);
+            transform: translate(9em);
   }
-  39.2% {
-    width: 100px;
-    -webkit-transform: translate(8em);
-            transform: translate(8em);
-  }
-  44.1% {
-    width: 200px;
-    -webkit-transform: translate(10em);
-            transform: translate(10em);
-  }
-  49% {
-    width: 340px;
+  13.0666666667% {
+    width: 152px;
     -webkit-transform: translate(5em);
             transform: translate(5em);
   }
-  53.9% {
-    width: 280px;
+  16.3333333333% {
+    width: 323px;
+    -webkit-transform: translate(5em);
+            transform: translate(5em);
+  }
+  19.6% {
+    width: 129px;
+    -webkit-transform: translate(10em);
+            transform: translate(10em);
+  }
+  22.8666666667% {
+    width: 109px;
+    -webkit-transform: translate(4em);
+            transform: translate(4em);
+  }
+  26.1333333333% {
+    width: 172px;
+    -webkit-transform: translate(6em);
+            transform: translate(6em);
+  }
+  29.4% {
+    width: 141px;
+    -webkit-transform: translate(8em);
+            transform: translate(8em);
+  }
+  32.6666666667% {
+    width: 109px;
+    -webkit-transform: translate(3em);
+            transform: translate(3em);
+  }
+  35.9333333333% {
+    width: 275px;
+    -webkit-transform: translate(10em);
+            transform: translate(10em);
+  }
+  39.2% {
+    width: 64px;
+    -webkit-transform: translate(4em);
+            transform: translate(4em);
+  }
+  42.4666666667% {
+    width: 299px;
+    -webkit-transform: translate(10em);
+            transform: translate(10em);
+  }
+  45.7333333333% {
+    width: 269px;
+    -webkit-transform: translate(1em);
+            transform: translate(1em);
+  }
+  49% {
+    width: 77px;
+    -webkit-transform: translate(6em);
+            transform: translate(6em);
+  }
+  52.2666666667% {
+    width: 324px;
+    -webkit-transform: translate(2em);
+            transform: translate(2em);
+  }
+  55.5333333333% {
+    width: 85px;
     -webkit-transform: translate(2em);
             transform: translate(2em);
   }
   58.8% {
-    width: 50px;
-    -webkit-transform: translate(8em);
-            transform: translate(8em);
+    width: 168px;
+    -webkit-transform: translate(5em);
+            transform: translate(5em);
   }
-  63.7% {
-    width: 290px;
+  62.0666666667% {
+    width: 130px;
+    -webkit-transform: translate(1em);
+            transform: translate(1em);
+  }
+  65.3333333333% {
+    width: 324px;
     -webkit-transform: translate(5em);
             transform: translate(5em);
   }
   68.6% {
-    width: 110px;
-    -webkit-transform: translate(6em);
-            transform: translate(6em);
+    width: 235px;
+    -webkit-transform: translate(8em);
+            transform: translate(8em);
   }
-  73.5% {
-    width: 190px;
-    -webkit-transform: translate(9em);
-            transform: translate(9em);
-  }
-  78.4% {
-    width: 220px;
+  71.8666666667% {
+    width: 119px;
     -webkit-transform: translate(7em);
             transform: translate(7em);
   }
-  83.3% {
-    width: 100px;
-    -webkit-transform: translate(6em);
-            transform: translate(6em);
+  75.1333333333% {
+    width: 130px;
+    -webkit-transform: translate(7em);
+            transform: translate(7em);
+  }
+  78.4% {
+    width: 96px;
+    -webkit-transform: translate(4em);
+            transform: translate(4em);
+  }
+  81.6666666667% {
+    width: 334px;
+    -webkit-transform: translate(7em);
+            transform: translate(7em);
+  }
+  84.9333333333% {
+    width: 182px;
+    -webkit-transform: translate(3em);
+            transform: translate(3em);
   }
   88.2% {
-    width: 90px;
+    width: 108px;
+    -webkit-transform: translate(1em);
+            transform: translate(1em);
+  }
+  91.4666666667% {
+    width: 63px;
+    -webkit-transform: translate(7em);
+            transform: translate(7em);
+  }
+  94.7333333333% {
+    width: 130px;
     -webkit-transform: translate(2em);
             transform: translate(2em);
-  }
-  93.1% {
-    width: 130px;
-    -webkit-transform: translate(9em);
-            transform: translate(9em);
   }
   98% {
-    width: 60px;
-    -webkit-transform: translate(5em);
-            transform: translate(5em);
-  }
-  102.9% {
-    width: 190px;
-    -webkit-transform: translate(6em);
-            transform: translate(6em);
-  }
-  107.8% {
-    width: 220px;
-    -webkit-transform: translate(8em);
-            transform: translate(8em);
-  }
-  112.7% {
-    width: 240px;
-    -webkit-transform: translate(1em);
-            transform: translate(1em);
-  }
-  117.6% {
-    width: 190px;
-    -webkit-transform: translate(2em);
-            transform: translate(2em);
-  }
-  122.5% {
-    width: 340px;
-    -webkit-transform: translate(6em);
-            transform: translate(6em);
-  }
-  127.4% {
-    width: 150px;
-    -webkit-transform: translate(1em);
-            transform: translate(1em);
-  }
-  132.3% {
-    width: 120px;
-    -webkit-transform: translate(8em);
-            transform: translate(8em);
-  }
-  137.2% {
-    width: 90px;
-    -webkit-transform: translate(1em);
-            transform: translate(1em);
-  }
-  142.1% {
-    width: 320px;
-    -webkit-transform: translate(10em);
-            transform: translate(10em);
-  }
-  147% {
-    width: 170px;
-    -webkit-transform: translate(1em);
-            transform: translate(1em);
+    width: 244px;
+    -webkit-transform: translate(3em);
+            transform: translate(3em);
   }
   100% {
     width: 350px;
@@ -268,155 +268,155 @@ body {
   0% {
     width: 350px;
   }
-  4.9% {
-    width: 130px;
+  3.2666666667% {
+    width: 170px;
     -webkit-transform: translate(9em);
             transform: translate(9em);
   }
-  9.8% {
-    width: 240px;
-    -webkit-transform: translate(10em);
-            transform: translate(10em);
-  }
-  14.7% {
-    width: 80px;
-    -webkit-transform: translate(8em);
-            transform: translate(8em);
-  }
-  19.6% {
-    width: 190px;
-    -webkit-transform: translate(8em);
-            transform: translate(8em);
-  }
-  24.5% {
-    width: 230px;
-    -webkit-transform: translate(1em);
-            transform: translate(1em);
-  }
-  29.4% {
-    width: 170px;
+  6.5333333333% {
+    width: 179px;
     -webkit-transform: translate(4em);
             transform: translate(4em);
   }
-  34.3% {
-    width: 140px;
-    -webkit-transform: translate(7em);
-            transform: translate(7em);
+  9.8% {
+    width: 235px;
+    -webkit-transform: translate(9em);
+            transform: translate(9em);
   }
-  39.2% {
-    width: 100px;
-    -webkit-transform: translate(8em);
-            transform: translate(8em);
-  }
-  44.1% {
-    width: 200px;
-    -webkit-transform: translate(10em);
-            transform: translate(10em);
-  }
-  49% {
-    width: 340px;
+  13.0666666667% {
+    width: 152px;
     -webkit-transform: translate(5em);
             transform: translate(5em);
   }
-  53.9% {
-    width: 280px;
+  16.3333333333% {
+    width: 323px;
+    -webkit-transform: translate(5em);
+            transform: translate(5em);
+  }
+  19.6% {
+    width: 129px;
+    -webkit-transform: translate(10em);
+            transform: translate(10em);
+  }
+  22.8666666667% {
+    width: 109px;
+    -webkit-transform: translate(4em);
+            transform: translate(4em);
+  }
+  26.1333333333% {
+    width: 172px;
+    -webkit-transform: translate(6em);
+            transform: translate(6em);
+  }
+  29.4% {
+    width: 141px;
+    -webkit-transform: translate(8em);
+            transform: translate(8em);
+  }
+  32.6666666667% {
+    width: 109px;
+    -webkit-transform: translate(3em);
+            transform: translate(3em);
+  }
+  35.9333333333% {
+    width: 275px;
+    -webkit-transform: translate(10em);
+            transform: translate(10em);
+  }
+  39.2% {
+    width: 64px;
+    -webkit-transform: translate(4em);
+            transform: translate(4em);
+  }
+  42.4666666667% {
+    width: 299px;
+    -webkit-transform: translate(10em);
+            transform: translate(10em);
+  }
+  45.7333333333% {
+    width: 269px;
+    -webkit-transform: translate(1em);
+            transform: translate(1em);
+  }
+  49% {
+    width: 77px;
+    -webkit-transform: translate(6em);
+            transform: translate(6em);
+  }
+  52.2666666667% {
+    width: 324px;
+    -webkit-transform: translate(2em);
+            transform: translate(2em);
+  }
+  55.5333333333% {
+    width: 85px;
     -webkit-transform: translate(2em);
             transform: translate(2em);
   }
   58.8% {
-    width: 50px;
-    -webkit-transform: translate(8em);
-            transform: translate(8em);
+    width: 168px;
+    -webkit-transform: translate(5em);
+            transform: translate(5em);
   }
-  63.7% {
-    width: 290px;
+  62.0666666667% {
+    width: 130px;
+    -webkit-transform: translate(1em);
+            transform: translate(1em);
+  }
+  65.3333333333% {
+    width: 324px;
     -webkit-transform: translate(5em);
             transform: translate(5em);
   }
   68.6% {
-    width: 110px;
-    -webkit-transform: translate(6em);
-            transform: translate(6em);
+    width: 235px;
+    -webkit-transform: translate(8em);
+            transform: translate(8em);
   }
-  73.5% {
-    width: 190px;
-    -webkit-transform: translate(9em);
-            transform: translate(9em);
-  }
-  78.4% {
-    width: 220px;
+  71.8666666667% {
+    width: 119px;
     -webkit-transform: translate(7em);
             transform: translate(7em);
   }
-  83.3% {
-    width: 100px;
-    -webkit-transform: translate(6em);
-            transform: translate(6em);
+  75.1333333333% {
+    width: 130px;
+    -webkit-transform: translate(7em);
+            transform: translate(7em);
+  }
+  78.4% {
+    width: 96px;
+    -webkit-transform: translate(4em);
+            transform: translate(4em);
+  }
+  81.6666666667% {
+    width: 334px;
+    -webkit-transform: translate(7em);
+            transform: translate(7em);
+  }
+  84.9333333333% {
+    width: 182px;
+    -webkit-transform: translate(3em);
+            transform: translate(3em);
   }
   88.2% {
-    width: 90px;
+    width: 108px;
+    -webkit-transform: translate(1em);
+            transform: translate(1em);
+  }
+  91.4666666667% {
+    width: 63px;
+    -webkit-transform: translate(7em);
+            transform: translate(7em);
+  }
+  94.7333333333% {
+    width: 130px;
     -webkit-transform: translate(2em);
             transform: translate(2em);
-  }
-  93.1% {
-    width: 130px;
-    -webkit-transform: translate(9em);
-            transform: translate(9em);
   }
   98% {
-    width: 60px;
-    -webkit-transform: translate(5em);
-            transform: translate(5em);
-  }
-  102.9% {
-    width: 190px;
-    -webkit-transform: translate(6em);
-            transform: translate(6em);
-  }
-  107.8% {
-    width: 220px;
-    -webkit-transform: translate(8em);
-            transform: translate(8em);
-  }
-  112.7% {
-    width: 240px;
-    -webkit-transform: translate(1em);
-            transform: translate(1em);
-  }
-  117.6% {
-    width: 190px;
-    -webkit-transform: translate(2em);
-            transform: translate(2em);
-  }
-  122.5% {
-    width: 340px;
-    -webkit-transform: translate(6em);
-            transform: translate(6em);
-  }
-  127.4% {
-    width: 150px;
-    -webkit-transform: translate(1em);
-            transform: translate(1em);
-  }
-  132.3% {
-    width: 120px;
-    -webkit-transform: translate(8em);
-            transform: translate(8em);
-  }
-  137.2% {
-    width: 90px;
-    -webkit-transform: translate(1em);
-            transform: translate(1em);
-  }
-  142.1% {
-    width: 320px;
-    -webkit-transform: translate(10em);
-            transform: translate(10em);
-  }
-  147% {
-    width: 170px;
-    -webkit-transform: translate(1em);
-            transform: translate(1em);
+    width: 244px;
+    -webkit-transform: translate(3em);
+            transform: translate(3em);
   }
   100% {
     width: 350px;

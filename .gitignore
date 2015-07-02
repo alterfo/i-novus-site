@@ -32,7 +32,7 @@ publish
 .idea
 node_modules
 bower_components
-
+.sass-cache
 # build script local files
 build/buildinfo.properties
 build/config/buildinfo.properties
